@@ -1,0 +1,11 @@
+<svg id="Icon_-_Close" data-name="Icon - Close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Mask" width="30" height="30" fill="none"/>
+        </clipPath>
+    </defs>
+    <rect id="Mask-2" data-name="Mask" width="30" height="30" fill="none"/>
+    <g id="Close" clip-path="url(#clip-path)">
+        <path id="Combined_Shape" data-name="Combined Shape" d="M7.466,7.466.445,14.488,7.466,7.466,0,0,7.466,7.466,14.933,0,7.466,7.466l7.022,7.022Z" transform="translate(7.534 7.534)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+</svg>

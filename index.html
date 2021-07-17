@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Eldorado</title>
+</head>
+<body>
+<header class="header container-fluid">
+  <div class="row header-row">
+    <a href="/" class="logo">
+      <img src="./img/eldorado.svg" alt="eldorado.com">
+    </a>
+    <div class="contacts">
+      <a class="contacts__link contacts__tel" href="tel:0800217643">
+        0 800 217 643
+        <img src="./img/arrow.svg" alt="arrow">
+      </a>
+      <span class="contacts__link contacts__city">
+        Город
+        <img src="./img/arrow.svg" alt="arrow">
+      </span>
+    </div>
+    <div class="nav-wr">
+      <nav class="nav">
+        <ul class="nav__list d-flex">
+          <li class="nav__item"><a href="" class="nav__link">Магазины</a></li>
+          <li class="nav__item display"><a href="" class="nav__link">Кредит</a></li>
+          <li class="nav__item display"><a href="" class="nav__link">Оплата и доставка</a></li>
+          <li class="nav__item display"><a href="" class="nav__link">Карьера</a></li>
+          <li class="nav__item more">
+            <span class="nav__link more" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Еще <img src="./img/arrow.svg" alt="arrow"></span>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li class="nav__item"><a href="" class="nav__link">Кредит</a></li>
+              <li class="nav__item"><a href="" class="nav__link">Оплата и доставка</a></li>
+              <li class="nav__item "><a href="" class="nav__link">Карьера</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="" class="nav__link">Все акции</a></li>
+        </ul>
+      </nav>
+      <ul class="lang__list d-flex">
+        <li class="lang__item lang-ukr">Укр</li>
+        <li class="lang__item active">Рус</li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="container-fluid bot-header">
+  <div class="row align-items-center bot-row">
+    <span class="btn__cat">
+      Каталог товаров
+      <div id="overlay" class="overlay"></div>
+      <div class="sidebar__wr">
+        <ul class="sidebar">
+          <li class="sidebar__item">
+            <a href="" class="sidebar__link">Ноутбуки, планшеты</a>
+            <ul class="dropdown">
+              <a href="">Смартфоны Samsung</a>
+              <ul class="dropdown-menu-child">
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+              </ul>
+              <a href="">Смартфоны Samsung</a>
+              <ul class="dropdown-menu-child">
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+              </ul>
+            </ul>
+          </li>
+          <li class="sidebar__item">
+            <a href="" class="sidebar__link">Ноутбуки, планшеты</a>
+            <ul class="dropdown">
+              <a href="">Смартфоны Samsung</a>
+              <ul class="dropdown-menu-child">
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+                <li class="dropdown-menu__item">
+                  <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                </li>
+              </ul>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="burger">
+      <img src="./img/burger-m.svg" alt="Каталог товаров">
+
+    </div>
+    <div id="wrapper">
+      <div class="eldorado">
+        <a href="/"><img src="./img/logo.svg" alt="eldorado.ua"></a>
+        <a class="tog"><img src="./img/close.svg" alt="eldorado.ua"></a>
+      </div>
+      <div class="sidebar__mobile-wr">
+        <ul class="sidebar__mobile">
+          <li class="sidebar__mobile-item">
+            <a id="smart" class="sidebar__mobil-link" data-toggle="dropdown">Ноутбуки, планшеты</a>
+            <ul class="dropdown__m dropdown-menu" aria-labelledby="smart">
+              <li class="dropdown-submenu">
+                <a class="test">
+                  Смартфоны Samsung
+                </a>
+                <ul class="dropdown-menu-child" style="display: none;">
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="" class="dropdown-menu__link">Galaxy S21</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="test">
+                  Смартфоны Samsung
+                </a>
+
+                <ul class="dropdown-menu-child " style="display: none;">
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy </a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy </a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy </a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy </a>
+                  </li>
+                  <li class="dropdown-menu__item ">
+                    <a href="" class="dropdown-menu__link">Galaxy </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form action="" class="form search">
+      <img class="svg-search" src="./img/search.svg" alt="search">
+      <input type="search" class="form-control" placeholder="Поиск товаров">
+      <img class="search-img" src="./img/search-img.svg" alt="search">
+    </form>
+    <div class="buttons">
+      <button class="button cub">Кабинет</button>
+      <button class="button equal">Сравнение</button>
+      <button class="button basket">
+        Корзина
+        <span class="count">1</span>
+      </button>
+      <button class="button-m basket-m">
+        <span class="count-m">1</span>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="container-fluid main">
+  <div class="row main-row">
+    <ul class="sidebar sidebar-desktop">
+      <li class="sidebar__item">
+        <a href="" class="sidebar__link">Ноутбуки, планшеты</a>
+        <ul class="dropdown">
+          <a href="">Смартфоны Samsung</a>
+          <ul class="dropdown-menu-child">
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+          </ul>
+          <a href="">Смартфоны Samsung</a>
+          <ul class="dropdown-menu-child">
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+          </ul>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <a href="" class="sidebar__link">Ноутбуки, планшеты</a>
+        <ul class="dropdown">
+          <a href="">Смартфоны Samsung</a>
+          <ul class="dropdown-menu-child">
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+            <li class="dropdown-menu__item">
+              <a href="" class="dropdown-menu__link">Galaxy S21</a>
+            </li>
+          </ul>
+        </ul>
+      </li>
+    </ul>
+    <div class="slider">
+
+    </div>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script>
+
+    let overlay = $('#overlay');
+    let btn = $('.btn__cat');
+    let sidebar = $('.sidebar__wr');
+    btn = btn[0];
+    sidebar = sidebar[0];
+
+
+    btn.addEventListener('mouseenter', function () {
+        overlay.addClass('display');
+    })
+
+    sidebar.addEventListener('mouseleave', function () {
+        overlay.removeClass('display');
+
+    })
+
+    var myWrapper = $("#wrapper");
+    $(".burger").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    $(".tog").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    $(document).ready(function () {
+        $('.dropdown-submenu a.test').on("click", function (e) {
+            $(this).toggleClass('active')
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+
+    // let sidebarM = $('.sidebar__mobile');
+    // sidebarM = sidebarM[0];
+    //
+    // console.log(sidebarM);
+    //
+    // console.log($('.sidebar__mobile a'))
+
+    /*   $('.sidebar__mobile a').click(function () {
+           console.log($('.sidebar__mobile a'))
+           if($('.sidebar__mobile a').className.includes('active')) {
+               console.log(e.target.classList);
+               $('.sidebar__mobile a').remove('active')
+           } else {
+               $('.sidebar__mobile a').add('active')
+           }
+       })*/
+
+    // sidebarM.addEventListener('click', function (e) {
+    //     console.log(e.target.className)
+    //      // console.log(e.target.className.includes('sidebar__mobil-link'))
+    //     // if(e.target.className.includes('active')) {
+    //     //     console.log(e.target.classList);
+    //     //     e.target.classList.remove('active')
+    //     // } else {
+    //     //     e.target.classList.add('active')
+    //     // }
+    // })
+</script>
+
+</body>
+</html>
